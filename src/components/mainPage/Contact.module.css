@@ -1,0 +1,75 @@
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
+    color:#3D081B; 
+    text-align: left;
+}
+.text img{
+    align-items: center;
+    border:1px solid #3D081B;
+    border-radius: 15px ;
+    height: 200px;
+    width:200px ;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-bottom:5% ;
+    border-bottom: 5px solid  #3D081B;
+}
+.contact {
+   
+    width: 100%;
+    
+  }
+  .contact form{
+    text-align: center;
+    max-width: 50rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+  }
+  /* Styling form elements within the contact section */
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    color: #3D081B;
+   border:1px solid #3D081B;
+   border-bottom: 3px solid #3D081B;
+    margin-bottom: .8rem;
+    border-radius: 35px;
+    padding: .7rem;
+  }
+  
+  /* Styling the textarea within the form */
+  .contact form textarea {
+  height: 150px;
+  border-bottom: 15px solid #3D081B;
+  }
+  
+  /* Additional styling for the submit button */
+  .btnBoxFormBtn {
+    display: flex;
+   justify-content: center;
+   width: 100%;
+  }
+  
+  .btnBoxFormBtn .btn{
+    margin-right: 75%;
+    width: 10%;
+    cursor: pointer;
+    font-size: 1rem;
+    color: aliceblue;
+    border:1px solid #3D081B;
+    border-radius: 30px;
+    background-color: #3D081B;
+    border-bottom: 5px solid #3D081B ;
+  }
+  .textlast{
+    color: #3D081B;
+    text-align: left;
+    margin-left: 25%;
+  }
+  .textlast{
+    color: #3D081B;
+    text-align: left;
+    margin-left: 25%;
+  }

@@ -1,0 +1,251 @@
+.back{
+  color: #3D081B;
+  text-align: left;
+  margin-left: 16%;
+  margin-top: 5%;
+  margin-bottom: -1%;
+}
+.card1{
+    display: flex;
+   justify-content: center;
+   color: #3D081B;
+    
+    }
+    .card1 h5{
+       color: #3D081B;
+    }
+    .card1 p{
+       color: #3D081B;
+    }
+   .imgTop{
+       height: 12rem;
+       border: 1px solid  #3D081B;
+       border-radius: 7px;
+   }
+   .mostLoved{
+       text-align: left;
+       margin-left: 14%;
+       /* margin-top: 2%; */
+       margin-bottom: 2%;
+       color: #3D081B;
+   }
+   .card2{
+       display: flex;
+   justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+   }
+   .card2 h5{
+       color: #3D081B;
+   }
+   .card2 h2{
+       color: #3D081B;
+   }
+   .card2 p{
+      color: #3D081B;
+   }
+   
+    
+    
+  .appContainer {
+    display: flex;
+    justify-content: center;
+    
+    height: 105vh;
+   
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 5%;
+  }
+  
+  .cardContainer {
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    
+    max-width: 500px;
+  }
+  .cardContainer1 {
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 720px;
+    height:1000 ;
+    
+  }
+  
+  .cardImage {
+    max-width: 100%;
+    height: auto;
+    border:1px solid #3D081B;
+    border-radius: 10px;
+  }
+  
+  .textCard {
+    text-align: left;
+    color: #3D081B;
+  }
+  
+  .textCard h2 {
+    font-size: 1.5rem;
+  }
+  
+  .textCard p {
+    font-size: 1rem;
+  }
+  .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 45px;
+}
+.btn1 .btn2{
+    display: inline-flex;
+    justify-content: center;
+     align-items: center;
+    width: 110px;
+    height: 100%;
+    
+    margin: 5px;
+    background: hsl(336, 8%, 88%);
+    color: #3D081B;
+    /* font-size: large; */
+    letter-spacing: 1px;
+    text-decoration: none;
+    transform: .6s;
+    /* box-shadow: */
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 2px solid #3D081B;
+}
+.btn2:hover{
+    color: #873f59;
+}
+.btn2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#3D081B;
+    width: 0; 
+    height: 100%;
+    z-index: -1;
+    transition: .4s;
+    }
+.btn2:hover::before{
+    width: 100%;
+
+}
+.btn2:nth-child(2){
+    background-color: #3D081B;
+    color:#ac647e;
+}
+.btn2:nth-child(2):hover{
+    color:#853b56;
+}
+.btn2:nth-child(2)::before{
+    background-color: #3D081B;
+}
+.btnplus .btn3{
+  display: inline-flex;
+  justify-content: center;
+   align-items: center;
+  width: 100px;
+  height: 40px;
+  
+  margin: 5px;
+  background: hsl(336, 8%, 88%);
+  color: #3D081B;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 1px;
+ text-decoration: none;
+ 
+  transform: .6s;
+  /* box-shadow: */
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #3D081B;
+}
+
+
+
+
+
+  .btn{
+   justify-content: space-between;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px solid #3D081B;
+    align-items: center;
+    background-color:  #3D081B;
+    color: bisque;
+    border: 1px solid rgb(31, 5, 54);
+
+}
+.star{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/* .card {
+  width: 15rem;
+   margin-right: 15px;
+  border: 1px solid grey;
+  box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+.card2{
+  display: flex;
+justify-content: center;
+margin-top: 3%;
+margin-bottom: 5%;
+}
+.card2 h5{
+  color: #3D081B;
+}
+.card2 h2{
+  color: #3D081B;
+}
+.card2 span{
+  color: grey;
+}
+.card2 p{
+ color: grey;
+}
+.mainButton button{
+   background-color:#3D081B;
+   width: 350px;
+   height: 40px;
+   border-radius: 20px;
+   margin-top: 6%;
+   margin-bottom: 6%;
+   border: #d283a0;
+   color: antiquewhite;
+   cursor: pointer;
+}
+.imageContainer{
+  position: absolute;
+}
+.mini{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border:2px solid #0e0408;
+  height: 40px;
+  width:40px ;
+  border-radius: 100%;
+  align-items: center;
+  background-color: aliceblue;
+  top: 50px;
+  left: 10px;
+ 
+}

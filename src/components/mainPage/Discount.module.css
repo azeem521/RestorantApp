@@ -1,0 +1,73 @@
+.appContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
+  height: 18%;
+  border: 1px solid #3d081b;
+  margin-top: 6%;
+  margin-bottom: 4%;
+  margin-left: 13%;
+  /* border-radius: 15PX; */
+  /* border-bottom:10px solid  #3D081B; */
+}
+
+.cardContainer {
+  flex: 1;
+  /* border-right:1px solid #3D081B; */
+  text-align: left;
+}
+.cardContainer1 {
+  flex: 1;
+}
+
+.cardImage {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.log {
+  color: #3d081b;
+}
+.log h3 {
+  margin-top: 2%;
+  font-size: small;
+}
+.log h6 {
+  font-size: small;
+}
+.log p {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: x-small;
+}
+.log form {
+  text-align: center;
+  max-width: 50rem;
+}
+.log form input {
+  color: #3d081b;
+  border: 1px solid #3d081b;
+  /* border-bottom: 3px solid #3D081B; */
+  margin-bottom: 0.2rem;
+
+  padding: 0.2rem;
+}
+
+.btnBoxFormBtn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btnBoxFormBtn .btn {
+  width: 80%;
+  cursor: pointer;
+  font-size: 1rem;
+  color: aliceblue;
+  border: 1px solid #3d081b;
+  /* border-radius: 30px; */
+  background-color: #3d081b;
+  border-bottom: 5px solid #3d081b;
+}

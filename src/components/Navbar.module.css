@@ -1,0 +1,93 @@
+.headBorder{
+    height: 35px;
+    width: 100vw;
+    background-color: #3D081B ;
+    text-align: center;
+    color: azure;
+    justify-content: center;
+}
+.headBorder p {
+   padding: 2px;
+}
+
+.container{
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(223, 223, 231);
+}
+.container img{
+    height: 70px;
+    margin-left: 100px;
+    width: auto;
+
+}
+.account{
+    width: 20%;
+
+}
+
+.acoount1{
+   justify-content: space-between;
+  
+}
+
+/* .menu-icon {
+    font-size: 1.8rem;
+    z-index: 1000;
+    cursor: pointer;
+    margin-left: 25px;
+    background:red;
+    border-radius: 3px;
+    color:white;
+    display: none;
+    border: 15px solid var(--bg-color);
+} */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: #3D081B;
+    /* border:1px solid #3D081B; */
+    width: 150%;
+    margin-left: -24%;
+}
+.navItem{
+    list-style: none;
+    
+    color: #3D081B;
+}
+ul li{
+    text-decoration: none;
+}
+/* .cartIcon{
+    position: fixed;
+    display: flex; */
+    /* justify-content: center; */
+    /* top: 40%;
+    right: 3%;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(231, 227, 230);
+    border-radius: 100%;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.2);
+    align-items: center; */
+    /* border:1px solid  #000; */
+  
+  .noCart{
+    position: relative; 
+   display: flex;
+    justify-content: center;
+   align-items: center;
+    background-color: #3D081B;
+    height: 15px;
+    width: 20px;
+    bottom:8px;
+    right: -8px;
+    color: rgb(243, 240, 240);
+    font-size: 10px;
+    border-radius: 100%;
+    border:1px solid white;
+    
+  }
+  

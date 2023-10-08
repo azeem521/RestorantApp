@@ -1,0 +1,39 @@
+
+  
+  .line1{
+    height: 1px;
+    color: #3D081B;
+    background-color: #3D081B;
+    width: 100%;
+   
+    
+  }
+  .line2{
+    height: 1px;
+    color: #3D081B;
+    background-color: #3D081B;
+    width: 100%;
+    margin-bottom: 3px;
+    
+    
+  }
+  .line{
+   
+    color: #3D081B;
+    height: 5px;
+    background-color: #3D081B;
+    width: 100%;
+}
+.sub1{
+    margin-top: 10px;
+    color: #3D081B;
+}
+.email{
+    height: 35px;
+    width: 300px;
+    border: 1px solid #3D081B;
+    border-radius: 10px ;
+    margin-bottom: 3%;
+    border-bottom:15% solid #3D081B;
+   
+}

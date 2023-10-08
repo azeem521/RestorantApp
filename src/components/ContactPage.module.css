@@ -1,0 +1,30 @@
+.cardsContainer{
+    display: flex;
+    justify-content: space-around;
+       padding: 16px;
+        margin: 16px;
+        border-radius: 4px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        text-align: left;
+        margin-left: 20%;
+        margin-right: 18%;
+        font-size:small;
+      }
+      .parentIcon{
+        display: flex;
+        justify-content: center;
+       
+        width: 100vw;
+
+
+      }
+      .icon{
+        display: flex;
+        justify-content: space-between;
+        width: 10%;
+       
+       
+       
+       
+       }
+  

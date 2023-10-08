@@ -1,0 +1,19 @@
+.item{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100px;
+    /* border: 1PX solid red; */
+    background-color: rgb(241, 240, 237);
+    box-shadow: black;
+}
+.item1 {
+    width: 400px;
+    height: 40px;
+    border: 2px solid #3D081B;;
+    margin-top: 2%;
+    border-radius: 10px;
+    border-bottom:3px solid  #3D081B;
+    text-align: start;
+    font-size: small;
+}

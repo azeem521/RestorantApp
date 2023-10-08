@@ -1,0 +1,32 @@
+.container{
+   
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://www.ketodelia.ca/cdn/shop/files/Keto_Burger_-_shifted.png?v=1664321824&width=1100");
+     background-size: cover;
+     background-position: center;
+}   
+.left{
+     margin-top: 150px;
+     display: flex;
+     flex-direction: column;
+    justify-content: left;
+     margin-left: none;
+     color:  #3D081B;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 45px;
+    margin-left: 20%;
+    border-radius: 20px;
+    align-items: center;
+    background-color:  #3D081B;
+    color: bisque;
+    border: 1px solid rgb(31, 5, 54);
+
+}

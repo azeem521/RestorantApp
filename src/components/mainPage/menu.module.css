@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #3d081b;
+  color: aliceblue;
+  text-align: left;
+}
+.header h6 {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.text {
+  text-align: left;
+  margin-left: 15%;
+}
+.text h3{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+/* Add this CSS to your stylesheet */
+.verticalBox {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(270px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  height: auto;
+  width: 70vw;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.box {
+  flex: 1;
+  justify-content: space-around;
+  position: relative;
+    overflow: hidden;
+    grid-template-rows: 1fr auto;
+  
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border: 1px solid rgb(182, 184, 185);
+
+  text-align: center;
+  margin-right: 5%;
+  border-radius: 12px;
+}
+/* .card{
+    flex: 1; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid skyblue;
+   
+  } */
+.horizontalLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid skyblue;
+  border-radius: 12px;
+  /* padding: 20px; */
+}
+
+.box h2 {
+  margin-top: 0;
+}
+.textSide {
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: 10px;
+  text-align: left;
+  font-size: small;
+  color: #3d081b;
+  flex: 1;
+}
+.textSide span {
+  color: grey;
+}
+
+.box .horizontalLayout .imageSide img {
+  width: 120px;
+  height: 180px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.btn{
+  color: "#3D081B";
+  border-radius: 15px;
+  border:2px solid #3d081b;
+  margin-top: 5%;
+  width: 100px;
+}
